@@ -8,11 +8,11 @@ Calling `bcftools` is the default entrypoint of this image. The parameter `--hel
 The working directory `/data` is defined as a volume and can be used for data im- and export while using this image.
 
 ## Current version
-The current version is bcftools [![](https://images.microbadger.com/badges/version/greatfireball/ime_bcftools:v1.8.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:v1.8 "Get your own version badge on microbadger.com").
+The current version is bcftools [![](https://images.microbadger.com/badges/version/greatfireball/ime_bcftools:v1.9.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:v1.9 "Get your own version badge on microbadger.com").
 
 | Version tag/branch | Size | Commit |
 |-|-|-|
-| [![](https://images.microbadger.com/badges/version/greatfireball/ime_bcftools:v1.8.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:v1.8 "Get your own version badge on microbadger.com") | [![](https://images.microbadger.com/badges/image/greatfireball/ime_bcftools:v1.8.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:v1.8 "Get your own image badge on microbadger.com") | [![](https://images.microbadger.com/badges/commit/greatfireball/ime_bcftools:v1.8.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:v1.8 "Get your own commit badge on microbadger.com") |
+| [![](https://images.microbadger.com/badges/version/greatfireball/ime_bcftools:v1.9.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:v1.9 "Get your own version badge on microbadger.com") | [![](https://images.microbadger.com/badges/image/greatfireball/ime_bcftools:v1.9.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:v1.9 "Get your own image badge on microbadger.com") | [![](https://images.microbadger.com/badges/commit/greatfireball/ime_bcftools:v1.9.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:v1.9 "Get your own commit badge on microbadger.com") |
 | [![](https://images.microbadger.com/badges/version/greatfireball/ime_bcftools:master.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:master "Get your own version badge on microbadger.com") | [![](https://images.microbadger.com/badges/image/greatfireball/ime_bcftools:master.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:master "Get your own image badge on microbadger.com") | [![](https://images.microbadger.com/badges/commit/greatfireball/ime_bcftools:master.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:master "Get your own commit badge on microbadger.com") |
 | [![](https://images.microbadger.com/badges/version/greatfireball/ime_bcftools:develop.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:develop "Get your own version badge on microbadger.com") | [![](https://images.microbadger.com/badges/image/greatfireball/ime_bcftools:develop.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:develop "Get your own image badge on microbadger.com") | [![](https://images.microbadger.com/badges/commit/greatfireball/ime_bcftools:develop.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:develop "Get your own commit badge on microbadger.com") |
 
@@ -27,6 +27,7 @@ All tags are listed on the [docker hub page](https://hub.docker.com/r/greatfireb
 - v1.6
 - v1.7
 - v1.8
+- v1.9
 
 ## Further information
 Further documentation about bcftools can be found on the [official site](http://www.htslib.org/doc/bcftools.html)
