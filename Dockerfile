@@ -29,6 +29,7 @@ RUN apt update && \
 	libncurses5-dev \
 	make \
 	perl \
+	libperl-dev \
 	wget \
 	zlib1g-dev && \
     apt autoclean && \
@@ -39,9 +40,14 @@ ENV BCFTOOLS_VERSION=1.9
 RUN wget -O - https://github.com/samtools/bcftools/releases/download/${BCFTOOLS_VERSION}/bcftools-${BCFTOOLS_VERSION}.tar.bz2 | \
     tar xjvf - && \
     cd bcftools-${BCFTOOLS_VERSION} && \
-    ./configure && \
+    ./configure --enable-perl-filters && \
     make && \
     make test && \
     make install && \
     cd /tmp && \
     rm -rf installation
+
+VOLUME /data
+WORKDIR /data
+ENTRYPOINT ["bcftools"]
+CMD ["--help"]
