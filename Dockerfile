@@ -35,7 +35,7 @@ RUN apt update && \
     rm -rf /var/lib/apt/lists/* /var/log/dpkg.log
 
 WORKDIR /tmp/installation
-ENV BCFTOOLS_VERSION=1.4
+ENV BCFTOOLS_VERSION=1.4.1
 RUN wget -O - https://github.com/samtools/bcftools/releases/download/${BCFTOOLS_VERSION}/bcftools-${BCFTOOLS_VERSION}.tar.bz2 | \
     tar xjvf - && \
     cd bcftools-${BCFTOOLS_VERSION} && \
