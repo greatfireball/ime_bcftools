@@ -15,5 +15,9 @@ The current version is bcftools [![](https://images.microbadger.com/badges/versi
 | [![](https://images.microbadger.com/badges/version/greatfireball/ime_bcftools:master.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:master "Get your own version badge on microbadger.com") | [![](https://images.microbadger.com/badges/image/greatfireball/ime_bcftools:master.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:master "Get your own image badge on microbadger.com") | [![](https://images.microbadger.com/badges/commit/greatfireball/ime_bcftools:master.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:master "Get your own commit badge on microbadger.com") |
 | [![](https://images.microbadger.com/badges/version/greatfireball/ime_bcftools:develop.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:develop "Get your own version badge on microbadger.com") | [![](https://images.microbadger.com/badges/image/greatfireball/ime_bcftools:develop.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:develop "Get your own image badge on microbadger.com") | [![](https://images.microbadger.com/badges/commit/greatfireball/ime_bcftools:develop.svg)](https://microbadger.com/images/greatfireball/ime_bcftools:develop "Get your own commit badge on microbadger.com") |
 
+## All tags
+All tags are listed on the [docker hub page](https://hub.docker.com/r/greatfireball/ime_bcftools/tags/). Versions with a tags are:
+- v1.2
+
 ## Further information
 Further documentation about bcftools can be found on the [official site](http://www.htslib.org/doc/bcftools.html)
