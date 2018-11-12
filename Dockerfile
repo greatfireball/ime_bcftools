@@ -45,3 +45,8 @@ RUN wget -O - https://github.com/samtools/bcftools/releases/download/${BCFTOOLS_
     make install && \
     cd /tmp && \
     rm -rf installation
+
+VOLUME /data
+WORKDIR /data
+ENTRYPOINT ["bcftools"]
+CMD ["--help"]
